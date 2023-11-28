@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362108d6daea87140857af506240fb40, type: 3}
+  m_Name: LevelData
+  m_EditorClassIdentifier: 
+  levels:
+  - map: {fileID: 795217579559819242, guid: fdaf37eb82603fe4aa5c7cede58e5c28, type: 3}
+    chesses:
+    - chessPrefab: {fileID: 8519748618250427595, guid: 41194819576747845aa2f96cafc5c08f, type: 3}
+      position: {x: -6, y: 0, z: 0}
+    - chessPrefab: {fileID: 1160329573113075860, guid: 8901ec190f1d0354f8f0bc8b1fe6aef9, type: 3}
+      position: {x: 3, y: 1, z: 0}
+    time: 20
+    bestTime: 0
+  - map: {fileID: 2210015685168603757, guid: c847365db3b9d344d86fc32ca01c5505, type: 3}
+    chesses:
+    - chessPrefab: {fileID: 1160329573113075860, guid: 8901ec190f1d0354f8f0bc8b1fe6aef9, type: 3}
+      position: {x: 0, y: -2, z: 0}
+    - chessPrefab: {fileID: 724823219173627413, guid: 1769669e32a48cd40b091d79ac48518f, type: 3}
+      position: {x: -7, y: 3, z: 0}
+    - chessPrefab: {fileID: 8519748618250427595, guid: 41194819576747845aa2f96cafc5c08f, type: 3}
+      position: {x: -7, y: 0, z: 0}
+    time: 75
+    bestTime: 0
+  - map: {fileID: 8702138769834820261, guid: 1821757afbcbc0a47b093ccd80b1f467, type: 3}
+    chesses:
+    - chessPrefab: {fileID: 1160329573113075860, guid: 8901ec190f1d0354f8f0bc8b1fe6aef9, type: 3}
+      position: {x: 3, y: 1, z: 0}
+    - chessPrefab: {fileID: 5175749128122896665, guid: 835137df5b5bed946bdc42400a4b24be, type: 3}
+      position: {x: 5, y: -4, z: 0}
+    - chessPrefab: {fileID: 5175749128122896665, guid: 835137df5b5bed946bdc42400a4b24be, type: 3}
+      position: {x: -3, y: -4, z: 0}
+    - chessPrefab: {fileID: 8519748618250427595, guid: 41194819576747845aa2f96cafc5c08f, type: 3}
+      position: {x: -6, y: 0, z: 0}
+    time: 90
+    bestTime: 0
+  - map: {fileID: 7131798348208687350, guid: be72e047947452c49977c821f994380b, type: 3}
+    chesses:
+    - chessPrefab: {fileID: 1160329573113075860, guid: 8901ec190f1d0354f8f0bc8b1fe6aef9, type: 3}
+      position: {x: -1, y: 4, z: 0}
+    - chessPrefab: {fileID: 3058495828719425746, guid: 8dafe324ed91eb3449147657275ccdd5, type: 3}
+      position: {x: 4, y: -4, z: 0}
+    - chessPrefab: {fileID: 3058495828719425746, guid: 8dafe324ed91eb3449147657275ccdd5, type: 3}
+      position: {x: 2, y: -4, z: 0}
+    time: 30
+    bestTime: 0
+  - map: {fileID: 8063506400594526079, guid: 47af22a4f0d08824ea38371ecbe3f14a, type: 3}
+    chesses:
+    - chessPrefab: {fileID: 1160329573113075860, guid: 8901ec190f1d0354f8f0bc8b1fe6aef9, type: 3}
+      position: {x: 6, y: 3, z: 0}
+    - chessPrefab: {fileID: 724823219173627413, guid: 1769669e32a48cd40b091d79ac48518f, type: 3}
+      position: {x: -4, y: -4, z: 0}
+    time: 25
+    bestTime: 0
+  - map: {fileID: 8448105168761899171, guid: 89c7474c48672c14996a724177dd4858, type: 3}
+    chesses:
+    - chessPrefab: {fileID: 1160329573113075860, guid: 8901ec190f1d0354f8f0bc8b1fe6aef9, type: 3}
+      position: {x: 0, y: 0, z: 0}
+    - chessPrefab: {fileID: 8519748618250427595, guid: 41194819576747845aa2f96cafc5c08f, type: 3}
+      position: {x: 0, y: -4, z: 0}
+    - chessPrefab: {fileID: 5175749128122896665, guid: 835137df5b5bed946bdc42400a4b24be, type: 3}
+      position: {x: 4, y: -2, z: 0}
+    - chessPrefab: {fileID: 724823219173627413, guid: 1769669e32a48cd40b091d79ac48518f, type: 3}
+      position: {x: -1, y: 2, z: 0}
+    time: 90
+    bestTime: 0
+  - map: {fileID: 8273775685450125866, guid: c024b0d5a2a7c084e9379a4b1a6b4cd9, type: 3}
+    chesses:
+    - chessPrefab: {fileID: 1160329573113075860, guid: 8901ec190f1d0354f8f0bc8b1fe6aef9, type: 3}
+      position: {x: 7, y: 2, z: 0}
+    - chessPrefab: {fileID: 724823219173627413, guid: 1769669e32a48cd40b091d79ac48518f, type: 3}
+      position: {x: -7, y: 4, z: 0}
+    - chessPrefab: {fileID: 5175749128122896665, guid: 835137df5b5bed946bdc42400a4b24be, type: 3}
+      position: {x: 5, y: -4, z: 0}
+    - chessPrefab: {fileID: 5175749128122896665, guid: 835137df5b5bed946bdc42400a4b24be, type: 3}
+      position: {x: 3, y: -4, z: 0}
+    - chessPrefab: {fileID: 724823219173627413, guid: 1769669e32a48cd40b091d79ac48518f, type: 3}
+      position: {x: 1, y: -4, z: 0}
+    - chessPrefab: {fileID: 8519748618250427595, guid: 41194819576747845aa2f96cafc5c08f, type: 3}
+      position: {x: -2, y: -4, z: 0}
+    - chessPrefab: {fileID: 3058495828719425746, guid: 8dafe324ed91eb3449147657275ccdd5, type: 3}
+      position: {x: -4, y: -4, z: 0}
+    - chessPrefab: {fileID: 3058495828719425746, guid: 8dafe324ed91eb3449147657275ccdd5, type: 3}
+      position: {x: -6, y: -4, z: 0}
+    time: 120
+    bestTime: 0
+  - map: {fileID: 6179078511287448876, guid: 2b18a002157abea449a9a8aee484518d, type: 3}
+    chesses:
+    - chessPrefab: {fileID: 1160329573113075860, guid: 8901ec190f1d0354f8f0bc8b1fe6aef9, type: 3}
+      position: {x: 5, y: 2, z: 0}
+    - chessPrefab: {fileID: 8519748618250427595, guid: 41194819576747845aa2f96cafc5c08f, type: 3}
+      position: {x: -7, y: 0, z: 0}
+    - chessPrefab: {fileID: 7456172349618472851, guid: ece930556e6f37747b054a338e25b3cb, type: 3}
+      position: {x: 0, y: 0, z: 0}
+    - chessPrefab: {fileID: 7456172349618472851, guid: ece930556e6f37747b054a338e25b3cb, type: 3}
+      position: {x: 3, y: -4, z: 0}
+    - chessPrefab: {fileID: 7456172349618472851, guid: ece930556e6f37747b054a338e25b3cb, type: 3}
+      position: {x: -4, y: -4, z: 0}
+    time: 60
+    bestTime: 0
+  - map: {fileID: 5444807301220106530, guid: c55b2d194d302e74b81e84d2119c62d3, type: 3}
+    chesses:
+    - chessPrefab: {fileID: 1160329573113075860, guid: 8901ec190f1d0354f8f0bc8b1fe6aef9, type: 3}
+      position: {x: 6, y: 2, z: 0}
+    - chessPrefab: {fileID: 724823219173627413, guid: 1769669e32a48cd40b091d79ac48518f, type: 3}
+      position: {x: 6, y: -5, z: 0}
+    - chessPrefab: {fileID: 7456172349618472851, guid: ece930556e6f37747b054a338e25b3cb, type: 3}
+      position: {x: 3, y: -5, z: 0}
+    - chessPrefab: {fileID: 7456172349618472851, guid: ece930556e6f37747b054a338e25b3cb, type: 3}
+      position: {x: -1, y: -5, z: 0}
+    - chessPrefab: {fileID: 3058495828719425746, guid: 8dafe324ed91eb3449147657275ccdd5, type: 3}
+      position: {x: -4, y: -5, z: 0}
+    time: 90
+    bestTime: 0
+  - map: {fileID: 4633432125619330040, guid: 035912806359ba44faa01399cbcce466, type: 3}
+    chesses:
+    - chessPrefab: {fileID: 1160329573113075860, guid: 8901ec190f1d0354f8f0bc8b1fe6aef9, type: 3}
+      position: {x: 6, y: 4, z: 0}
+    - chessPrefab: {fileID: 7974619171753229452, guid: 79ad1361c872f8a4a9d69e605690398d, type: 3}
+      position: {x: -1, y: -2, z: 0}
+    time: 45
+    bestTime: 0
+  - map: {fileID: 1074329101243494243, guid: d48c061c687db4b4c993a4c170b9721e, type: 3}
+    chesses:
+    - chessPrefab: {fileID: 1160329573113075860, guid: 8901ec190f1d0354f8f0bc8b1fe6aef9, type: 3}
+      position: {x: -7, y: 1, z: 0}
+    - chessPrefab: {fileID: 7974619171753229452, guid: 79ad1361c872f8a4a9d69e605690398d, type: 3}
+      position: {x: -5, y: -5, z: 0}
+    - chessPrefab: {fileID: 3058495828719425746, guid: 8dafe324ed91eb3449147657275ccdd5, type: 3}
+      position: {x: 0, y: -5, z: 0}
+    time: 90
+    bestTime: 0

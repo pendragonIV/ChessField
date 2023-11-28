@@ -10,6 +10,7 @@ public class Enemy : MonoBehaviour
             this.GetComponent<Rigidbody2D>().gravityScale = 1;
             this.GetComponent<Rigidbody2D>().angularVelocity = 800;
             this.GetComponent<Collider2D>().enabled = false;
+            GameManager.instance.Win();
         }
     }
 }

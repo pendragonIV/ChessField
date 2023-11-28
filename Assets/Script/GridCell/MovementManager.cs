@@ -1,6 +1,4 @@
 using DG.Tweening;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -27,7 +25,7 @@ public class MovementManager : MonoBehaviour
 
     private void Update()
     {
-        if(selectedObj != null)
+        if(selectedObj != null && !GameManager.instance.IsGameLose() && !GameManager.instance.IsGameWin())
         {
             if (Input.GetMouseButtonDown(0) && selectedObj.GetComponent<Player>().IsGrounded() && EventSystem.current.currentSelectedGameObject == null)
             {

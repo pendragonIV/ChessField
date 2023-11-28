@@ -8,22 +8,36 @@ public class GameScene : MonoBehaviour
     [SerializeField]
     private Transform overlayPanel;
     [SerializeField]
-    private Transform winPanel;
+    private Transform losePanel;
     [SerializeField]
     private Button replayButton;
     [SerializeField]
     private Button homeButton;
+    [SerializeField]
+    private Text timeText;
+    [SerializeField]
+    private Text levelText;
+    [SerializeField]
+    private Text bestTime;
 
-
-    private void Start()
+    public void SetTime(float time)
     {
+        int minutes = Mathf.FloorToInt(time / 60F);
+        int seconds = Mathf.FloorToInt(time % 60f);
+        timeText.text = minutes.ToString("00") + ":" + seconds.ToString("00");
     }
 
-    public void ShowWinPanel()
+    public void SetLevel(int levelIndex)
     {
+        levelText.text = "Level " + (levelIndex + 1);
+    }
+
+    public void ShowLosePanel()
+    {
+        bestTime.text = LevelManager.instance.levelData.GetLevelAt(LevelManager.instance.currentLevelIndex).bestTime.ToString("00:00");
         overlayPanel.gameObject.SetActive(true);
-        winPanel.gameObject.SetActive(true);
-        FadeIn(overlayPanel.GetComponent<CanvasGroup>(), winPanel.GetComponent<RectTransform>());
+        losePanel.gameObject.SetActive(true);
+        FadeIn(overlayPanel.GetComponent<CanvasGroup>(), losePanel.GetComponent<RectTransform>());
         homeButton.interactable = false;
         replayButton.interactable = false;
     }

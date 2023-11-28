@@ -44,7 +44,10 @@ public class GridCellManager : MonoBehaviour
 
     public void Update()
     {
-
+        //if (Input.GetMouseButtonDown(1))
+        //{
+        //    Debug.Log(GetObjCell(Camera.main.ScreenToWorldPoint(Input.mousePosition)));
+        //}
     }
 
     #region GetMapLocation
@@ -257,10 +260,7 @@ public class GridCellManager : MonoBehaviour
     #endregion
 
     #region Getters
-    public void SetWallMap(Tilemap wallMap)
-    {
-        this.wallMap = wallMap;
-    }
+
     public bool IsPlaceableArea(Vector3Int cellPos)
     {
         if (tileMap.GetTile(cellPos) == null || wallMap.GetTile(cellPos) != null)
@@ -284,6 +284,16 @@ public class GridCellManager : MonoBehaviour
     public Vector3 PositonToMove(Vector3Int cellPosition)
     {
         return tileMap.GetCellCenterWorld(cellPosition);
+    }
+
+    #endregion
+
+    #region Setters
+    public void SetMap(Grid map)
+    {
+        this.tileMap = map.transform.GetChild(0).GetComponent<Tilemap>();
+        this.wallMap = map.transform.GetChild(1).GetComponent<Tilemap>();
+        this.hightlightedMap = map.transform.GetChild(2).GetComponent<Tilemap>();
     }
 
     #endregion
